@@ -151,7 +151,7 @@
             
             try {
                 const address = process.env.URL;
-                const response = await fetch(`${address}/process`, {
+                const response = await fetch(`${secrets.URL}/process`, {
                     method: 'POST',
                     body: formData
                 });
