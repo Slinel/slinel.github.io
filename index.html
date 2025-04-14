@@ -150,7 +150,6 @@
             formData.append('field_area', document.getElementById('fieldArea').value);
             
             try {
-                const address = process.env.URL;
                 const response = await fetch(`${secrets.URL}/process`, {
                     method: 'POST',
                     body: formData
