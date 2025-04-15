@@ -150,7 +150,7 @@
             formData.append('field_area', document.getElementById('fieldArea').value);
             
             try {
-                const response = await fetch('http://10.20.212.205:5001/process', {
+                const response = await fetch('http://192.168.0.99:5001/process', {
                     method: 'POST',
                     body: formData
                 });
