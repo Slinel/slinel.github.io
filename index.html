@@ -150,7 +150,7 @@
             formData.append('field_area', document.getElementById('fieldArea').value);
             
             try {
-                const response = await fetch('https://4f51-45-85-105-197.ngrok-free.app', {
+                const response = await fetch('https://4f51-45-85-105-197.ngrok-free.app/process', {
                     method: 'POST',
                     body: formData
                 });
